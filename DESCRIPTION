@@ -1,0 +1,9 @@
+Package: classdata
+Version: 0.1
+Date: 2020-09-06
+Title: Olga's data 
+Description: Olga's toy data she uses in classes and tutorials
+Author: Olga Chyzh <olga.chyzh@utoronto.edu>
+Maintainer: Olga Chyzh <olga.chyzh@utoronto.edu>
+RoxygenNote: 7.1.0
+License: GPL-3
