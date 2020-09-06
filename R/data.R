@@ -15,7 +15,6 @@
 #'   \item{averageId.node}{first group's ideology}
 #'   \item{size.node}{first group's size}
 #'   \item{spons_actor.node}{first group's sponsor}
-#'   ...
 #' }
 #' @source Gade et al 2019
 "gadeData"
