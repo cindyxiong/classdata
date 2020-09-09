@@ -7,8 +7,8 @@
 \format{
 A data frame with 930 rows and 11 variables:
 \describe{
-  \item{Var1}{group name of the first renel group}
-  \item{Var2}{group name of the second renel group}
+  \item{Var1}{group name of the first rebel group}
+  \item{Var2}{group name of the second rebel group}
   \item{coopActions}{number of cooperative actions between the two groups}
   \item{id}{dyad id}
   \item{ideol_diff.dyad}{ideological distance between the two groups}
@@ -27,6 +27,6 @@ Gade et al 2019
 gadeData
 }
 \description{
-A dataset to replicate analysis from Gade et al 2019
+A dataset to replicate analysis from Gade et al 2019.
 }
 \keyword{datasets}
