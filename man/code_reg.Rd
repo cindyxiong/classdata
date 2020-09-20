@@ -3,9 +3,7 @@
 \name{code_reg}
 \alias{code_reg}
 \title{Generates a region variable
-\description{
-\code{code_reg} generates a region variable using COW numeric ccode. 
-}}
+\code{code_reg} generates a region variable using COW numeric ccode.}
 \usage{
 code_reg(ccode, d)
 }
@@ -22,7 +20,5 @@ the output will be a vector or the same length as ccode.
 }
 \description{
 Generates a region variable
-\description{
-\code{code_reg} generates a region variable using COW numeric ccode. 
-}
+\code{code_reg} generates a region variable using COW numeric ccode.
 }

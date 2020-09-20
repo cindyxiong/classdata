@@ -1,7 +1,5 @@
 #' Generates a region variable
-#' \description{
-#'\code{code_reg} generates a region variable using COW numeric ccode. 
-#'}
+#' \code{code_reg} generates a region variable using COW numeric ccode. 
 #' @param ... Numeric, complex, or logical vectors.
 #' @param ccode The name of the variable in the data that contains COW ccode. 
 #' Must be numeric.
