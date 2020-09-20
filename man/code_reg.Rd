@@ -2,7 +2,10 @@
 % Please edit documentation in R/code_reg.R
 \name{code_reg}
 \alias{code_reg}
-\title{Generates a region variable}
+\title{Generates a region variable
+\description{
+\code{code_reg} generates a region variable using COW numeric ccode. 
+}}
 \usage{
 code_reg(ccode, d)
 }
@@ -18,9 +21,8 @@ Must be numeric.}
 the output will be a vector or the same length as ccode.
 }
 \description{
-\code{code_reg} generates a region variable using COW numeric ccode.
+Generates a region variable
+\description{
+\code{code_reg} generates a region variable using COW numeric ccode. 
 }
-\examples{
-d<-cbind.data.frame(c(1,2,3),ccode=c(20,220,900))
-code_reg(ccode,d)
 }
