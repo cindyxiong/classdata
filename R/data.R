@@ -68,11 +68,11 @@
 "terr_attacks.wide"
 
 
-#' Covid-19 cases in the US, March--August, 2020
+#' Covid-19 cases in the US, March--October, 2020
 #'
-#' A dataset on monthly covid-19 cases in the US, between March and August, 2020, collected at the county level.
+#' A dataset on monthly covid-19 cases in the US, between March and mid-October, 2020, collected at the county level.
 #'
-#' @format A data frame with 16290 rows and 16 variables:
+#' @format A data frame with 18249 rows and 16 variables:
 #' \describe{
 #'   \item{FIPS}{US county numeric identifier}
 #'   \item{state}{two letter state abbreviation}
@@ -93,3 +93,22 @@
 #' }
 #' @source https://www.cnn.com/resources/coronavirus-information/
 "covid"
+
+#' Daily Covid-19 cases in the US, March--November, 2020
+#'
+#' A dataset on daily covid-19 cases in the US, between March and November, 2020, collected at the county level.
+#'
+#' @format A data frame with 526323 rows and 9 variables:
+#' \describe{
+#'   \item{fips}{US county numeric identifier}
+#'   \item{county}{county name}
+#'   \item{date}{date}
+#'   \item{state_name}{name of a US state}
+#'   \item{population}{county population}
+#'   \item{confirmed}{cumulative number of confirmed covid-19 cases}
+#'   \item{new_confirmed}{new monthly count of confirmed covid-19 cases}
+#'   \item{deaths}{cumulative number of confirmed covid-19 deaths}
+#'   \item{new_deaths}{new monthly count of confirmed covid-19 deaths}
+#' }
+#' @source https://www.cnn.com/resources/coronavirus-information/
+"covid_daily"

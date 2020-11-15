@@ -3,9 +3,9 @@
 \docType{data}
 \name{covid}
 \alias{covid}
-\title{Covid-19 cases in the US, March--August, 2020}
+\title{Covid-19 cases in the US, March--October, 2020}
 \format{
-A data frame with 16290 rows and 16 variables:
+A data frame with 18249 rows and 16 variables:
 \describe{
   \item{FIPS}{US county numeric identifier}
   \item{state}{two letter state abbreviation}
@@ -32,6 +32,6 @@ https://www.cnn.com/resources/coronavirus-information/
 covid
 }
 \description{
-A dataset on monthly covid-19 cases in the US, between March and August, 2020, collected at the county level.
+A dataset on monthly covid-19 cases in the US, between March and mid-October, 2020, collected at the county level.
 }
 \keyword{datasets}
