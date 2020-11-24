@@ -5,7 +5,12 @@
 \alias{defMat}
 \title{Defense alliances that formed in 1914}
 \format{
-
+A data frame with 484 rows and 3 variables:
+\describe{
+  \item{name1}{a three letter name abbreviation for country 1}
+  \item{name2}{a three letter name abbreviation for country 1}
+  \item{ally}{equals to 1 if country 1 signed a treaty plegding to defend country 2 in 1914}
+}
 }
 \source{
 109th Congress

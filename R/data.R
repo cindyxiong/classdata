@@ -121,7 +121,7 @@
 #'   \item{name1}{name of the first senator}
 #'   \item{name2}{name of the second senator}
 #'   \item{cosponsor}{equals to 1 if the two senators cosponsored at least two bill}
-
+#'}
 #' @source 109th Congress
 "legnet"
 
@@ -132,6 +132,6 @@
 #'   \item{name1}{a three letter name abbreviation for country 1}
 #'   \item{name2}{a three letter name abbreviation for country 1}
 #'   \item{ally}{equals to 1 if country 1 signed a treaty plegding to defend country 2 in 1914}
-
+#'}
 #' @source 109th Congress
 "defMat"
